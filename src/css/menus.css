@@ -1,0 +1,20 @@
+.menus-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.menus-section {
+  background: linear-gradient(0deg, #070000 32.57%, #2e0201 98.54%);
+  padding-bottom: 120px;
+}
+
+.p-menus {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.18px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin-top: 32px;
+}
