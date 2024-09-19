@@ -1,0 +1,86 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 428px;
+  padding: 40px 80px 24px 80px;
+  background: var(
+    --gradient-futer,
+    linear-gradient(180deg, #070000 0%, rgba(46, 2, 1, 0.6) 100%)
+  );
+}
+
+.footer-box {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-list {
+  display: flex;
+  width: 380px;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-list-item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.footer-list-item a {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.footer-list-item p {
+  font-size: 18px;
+  letter-spacing: 0.18px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.footer-wraper {
+  display: flex;
+  gap: 242px;
+}
+.footer-nav {
+  width: 410px;
+  margin-bottom: 32px;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.footer-nav-link {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--color-text);
+  opacity: 0.8;
+  transition: color 300ms ease;
+}
+
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  color: var(--color-orange);
+}
+
+.footer-soc-text {
+  font-size: 18px;
+  letter-spacing: 0.18px;
+  opacity: 0.8;
+  margin-bottom: 16px;
+}
+
+.footer-soc-list {
+  display: flex;
+  gap: 24px;
+}
+.footer-reserved {
+  font-size: 12px;
+  opacity: 0.8;
+  text-align: center;
+}

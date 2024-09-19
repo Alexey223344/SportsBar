@@ -1,0 +1,31 @@
+.hero-menu-wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 181px 189px;
+  height: 855px;
+  background: var(
+    --gradient,
+    linear-gradient(0deg, #070000 32.57%, #2e0201 98.54%)
+  );
+}
+.hero-menu-text-box {
+  max-width: 406px;
+}
+
+.hero-menu-text-title {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.hero-menu-text {
+  font-family: 'Halvetica', sans-serif;
+  font-size: 18px;
+}
+
+.hero-menu-text:nth-child(2) {
+  margin-bottom: 16px;
+}

@@ -4,6 +4,9 @@
 
 :root {
   --color-bg: #070000;
+  --color-text: #ffffff;
+  --color-orange: #d99400;
+  --color-orange-dark: #926400;
 }
 
 html {
@@ -13,6 +16,7 @@ html {
 body {
   font-family: 'Faustina', sans-serif;
   background-color: var(--color-bg);
+  color: var(--color-text);
 }
 
 h1,
