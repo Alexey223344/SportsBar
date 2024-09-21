@@ -1,0 +1,37 @@
+.form {
+  width: 200px;
+  height: 584px;
+  display: flex;
+}
+
+.form-btn {
+  display: block;
+  width: 193px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background-color: #d99400;
+  margin: 0 auto;
+}
+.one {
+  width: 411px;
+  height: 34px;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #d99400;
+  background-color: rgba(81, 22, 8, 0.2);
+  margin-bottom: 24px;
+  margin-top: 10px;
+}
+
+.img-contact {
+  width: 737px;
+  height: 584px;
+}
+
+.wrap{
+  display: flex;
+  gap: 132px;
+  padding-bottom: 120px;
+}
